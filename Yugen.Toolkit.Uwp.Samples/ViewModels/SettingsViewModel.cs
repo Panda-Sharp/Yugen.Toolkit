@@ -1,8 +1,8 @@
-﻿using Microsoft.Toolkit.Mvvm.Input;
-using System.Threading.Tasks;
-using System.Windows.Input;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Windows.UI.Xaml;
 using Yugen.Toolkit.Standard.Mvvm;
+using Yugen.Toolkit.Uwp.Samples.Models;
 using Yugen.Toolkit.Uwp.Services;
 
 namespace Yugen.Toolkit.Uwp.Samples.ViewModels.Yugen
@@ -11,28 +11,33 @@ namespace Yugen.Toolkit.Uwp.Samples.ViewModels.Yugen
     {
         private readonly IThemeSelectorService _themeSelectorService;
 
-        private ElementTheme _elementTheme;
-        private ICommand _switchThemeCommand;
+        private RadioOption<ElementTheme> _elementThemeOption;
 
         public SettingsViewModel(IThemeSelectorService themeSelectorService)
         {
             _themeSelectorService = themeSelectorService;
 
-            _elementTheme = _themeSelectorService.Theme;
+            ElementThemeOption = ElementThemeList.FirstOrDefault(x => x.Element.Equals(_themeSelectorService.Theme));
         }
 
-        public ElementTheme ElementTheme
+        // Enum.GetValues(typeof(ElementTheme)).Cast<ElementTheme>().ToList();
+        public List<RadioOption<ElementTheme>> ElementThemeList { get; } = new List<RadioOption<ElementTheme>>
         {
-            get => _elementTheme;
-            set => SetProperty(ref _elementTheme, value);
-        }
+            new RadioOption<ElementTheme>(ElementTheme.Default),
+            new RadioOption<ElementTheme>(ElementTheme.Dark),
+            new RadioOption<ElementTheme>(ElementTheme.Light)
+        };
 
-        public ICommand SwitchThemeCommand => _switchThemeCommand ?? (_switchThemeCommand = new AsyncRelayCommand<ElementTheme>(SwitchThemeCommandBehavior));
-
-        private async Task SwitchThemeCommandBehavior(ElementTheme param)
+        public RadioOption<ElementTheme> ElementThemeOption
         {
-            ElementTheme = param;
-            await _themeSelectorService.SetThemeAsync(param);
+            get => _elementThemeOption;
+            set
+            {
+                if (value != null && SetProperty(ref _elementThemeOption, value))
+                {
+                    _themeSelectorService.SetThemeAsync(_elementThemeOption.Element, false);
+                }
+            }
         }
     }
 }

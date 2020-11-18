@@ -78,11 +78,6 @@
             AppShellViewModel
             </summary>
         </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Collections.StretchedCollectionPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
-            </summary>
-        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Collections.StretchedCollectionPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -96,11 +91,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Collections.StretchedCollectionPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Collections.GroupedCollectionPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Collections.GroupedCollectionPage.InitializeComponent">
@@ -133,6 +123,36 @@
             GetBindingConnector(int connectionId, object target)
             </summary>
         </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Controls.MyDialog.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Controls.MyDialog.Connect(System.Int32,System.Object)">
+            <summary>
+            Connect()
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Controls.MyDialog.GetBindingConnector(System.Int32,System.Object)">
+            <summary>
+            GetBindingConnector(int connectionId, object target)
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Controls.YugenDialogPage.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Controls.YugenDialogPage.Connect(System.Int32,System.Object)">
+            <summary>
+            Connect()
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Controls.YugenDialogPage.GetBindingConnector(System.Int32,System.Object)">
+            <summary>
+            GetBindingConnector(int connectionId, object target)
+            </summary>
+        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Mvvm.ObservableSettingsPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -144,6 +164,21 @@
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Yugen.Mvvm.ObservableSettingsPage.GetBindingConnector(System.Int32,System.Object)">
+            <summary>
+            GetBindingConnector(int connectionId, object target)
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Snippets.Converters.EnumToBooleanConverterPage.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Snippets.Converters.EnumToBooleanConverterPage.Connect(System.Int32,System.Object)">
+            <summary>
+            Connect()
+            </summary>
+        </member>
+        <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Snippets.Converters.EnumToBooleanConverterPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
             </summary>
@@ -163,11 +198,6 @@
             GetBindingConnector(int connectionId, object target)
             </summary>
         </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Controls.CustomDialogPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
-            </summary>
-        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.CustomDialogPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -181,11 +211,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.CustomDialogPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Controls.EdgeTappedListViewPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.EdgeTappedListViewPage.InitializeComponent">
@@ -203,11 +228,6 @@
             GetBindingConnector(int connectionId, object target)
             </summary>
         </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Controls.GraphPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
-            </summary>
-        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.GraphPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -221,11 +241,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.GraphPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Controls.NotificationBannerPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.NotificationBannerPage.InitializeComponent">
@@ -273,11 +288,6 @@
             GetBindingConnector(int connectionId, object target)
             </summary>
         </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Controls.ValidationPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
-            </summary>
-        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.ValidationPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -291,11 +301,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Controls.ValidationPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Helpers.ContentDialogPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Helpers.ContentDialogPage.InitializeComponent">
@@ -313,11 +318,6 @@
             GetBindingConnector(int connectionId, object target)
             </summary>
         </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Helpers.FindControlPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
-            </summary>
-        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Helpers.FindControlPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -331,11 +331,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Helpers.FindControlPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Helpers.FilePickerPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Helpers.FilePickerPage.InitializeComponent">
@@ -355,7 +350,7 @@
         </member>
         <member name="T:Yugen.Toolkit.Uwp.Samples.Views.HomePage">
             <summary>
-            HomePage 
+            HomePage
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.HomePage.InitializeComponent">
@@ -418,11 +413,6 @@
             GetBindingConnector(int connectionId, object target)
             </summary>
         </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Mvvm.NavigationPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
-            </summary>
-        </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Mvvm.NavigationPage.InitializeComponent">
             <summary>
             InitializeComponent()
@@ -436,11 +426,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Mvvm.NavigationPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Mvvm.ObservableObjectPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Mvvm.ObservableObjectPage.InitializeComponent">
@@ -471,11 +456,6 @@
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Mvvm.XamlUICommandPage.GetBindingConnector(System.Int32,System.Object)">
             <summary>
             GetBindingConnector(int connectionId, object target)
-            </summary>
-        </member>
-        <member name="T:Yugen.Toolkit.Uwp.Samples.Views.Others.SamplesPage">
-            <summary>
-            An empty page that can be used on its own or navigated to within a Frame.
             </summary>
         </member>
         <member name="M:Yugen.Toolkit.Uwp.Samples.Views.Others.SamplesPage.InitializeComponent">
