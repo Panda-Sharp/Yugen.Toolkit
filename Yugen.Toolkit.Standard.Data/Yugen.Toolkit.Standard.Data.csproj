@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Yugen.Toolkit.Standard.Data</PackageId>
-    <Version>1.0.40</Version>
+    <Version>1.0.41</Version>
     <Product>Yugen Toolkit Standard Data</Product>
-    <Authors>emiliano84</Authors>
-    <Company>emiliano84</Company>
+    <Authors>panda-sharp</Authors>
+    <Company>panda-sharp</Company>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/emiliano84/Yugen.Toolkit</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/panda-sharp/Yugen.Toolkit</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <Description>
       This package includes code .Net Standard EF core data repository and service
@@ -17,18 +17,18 @@
     <PackageReleaseNotes></PackageReleaseNotes>
     <Copyright></Copyright>
     <PackageTags>Yugen Toolkit Data</PackageTags>
-    <RepositoryUrl>https://github.com/emiliano84/Yugen.Toolkit.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/panda-sharp/Yugen.Toolkit.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.12">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.12">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

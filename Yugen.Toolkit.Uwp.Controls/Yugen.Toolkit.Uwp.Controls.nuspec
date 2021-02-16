@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Yugen.Toolkit.Uwp.Controls</id>
-    <version>1.0.40</version>
+    <version>1.0.41</version>
     <title>Yugen Toolkit Uwp Controls</title>
-    <authors>emiliano84</authors>
-    <owners>emiliano84</owners>
+    <authors>panda-sharp</authors>
+    <owners>panda-sharp</owners>
     <license type="expression">GPL-3.0-or-later</license>
-    <projectUrl>https://github.com/emiliano84/Yugen.Toolkit</projectUrl>
+    <projectUrl>https://github.com/panda-sharp/Yugen.Toolkit</projectUrl>
     <icon>images\icon.png</icon>
     <description>
       This library provides XAML templated controls. It is part of the Yugen Toolkit.
@@ -21,11 +21,11 @@
     <releaseNotes></releaseNotes>
     <copyright></copyright>
     <tags>Yugen Toolkit Uwp Controls XAML Dialogs Graphs Menu Validation</tags>
-    <repository type="git" url="https://github.com/emiliano84/Yugen.Toolkit.git" /> 
+    <repository type="git" url="https://github.com/panda-sharp/Yugen.Toolkit.git" /> 
     <dependencies>
       <group targetFramework="uap10.0.17763">
-        <dependency id="Yugen.Toolkit.Standard" version="1.0.40" exclude="Build,Analyzers" />
-        <dependency id="Yugen.Toolkit.Uwp" version="1.0.40" exclude="Build,Analyzers" />
+        <dependency id="Yugen.Toolkit.Standard" version="1.0.41" exclude="Build,Analyzers" />
+        <dependency id="Yugen.Toolkit.Uwp" version="1.0.41" exclude="Build,Analyzers" />
         <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="6.2.10" exclude="Build,Analyzers" />
       </group>
     </dependencies>
